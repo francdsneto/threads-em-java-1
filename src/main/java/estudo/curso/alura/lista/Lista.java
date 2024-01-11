@@ -31,4 +31,7 @@ public class Lista {
     }
 
 
+    public boolean estaCheia() {
+        return this.indice == this.elementos.length;
+    }
 }
